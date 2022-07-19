@@ -1,0 +1,131 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    padding-top: 50px;
+    background-image: linear-gradient(315deg, #081874 0%, #208faa 74%);
+}
+
+/* CARDS */
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+.card {
+    width: 25%;
+    padding: 20px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.cardImg {
+    width: 80%;
+}
+
+.cardPrice {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.buttonCTA {
+    margin: 10px 0;
+    background-color: rgb(109, 20, 20);
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonCTA:hover {
+    background-color: rgb(184, 64, 64);
+    box-shadow: 1px 1px 10px lightgrey;
+}
+
+
+
+/* CART */
+
+.cartContainer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.cartRow {
+    border: 1px solid gray;
+    width: 70%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartHeader {
+    font-size: 20px;
+    border: none;
+}
+
+.cartImg {
+    width: 15%;
+}
+
+.cartImg img {
+    width: 100%;
+}
+
+.cartTitle {
+    width: 35%;
+}
+
+.cartDesc {
+    width: 25%;
+}
+
+.cartPrice {
+    width: 25%;
+}
+
+
+/* FORM */
+
+.formContainer {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+
+.formContainer form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30%;
+}
+
+.formContainer input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.formContainer input[type=submit] {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(89, 168, 89);
+    color: white;
+}
